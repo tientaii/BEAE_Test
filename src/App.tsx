@@ -3,12 +3,12 @@ import Footer from './components/Footer';
 import Header from './components/Header';
 
 function App() {
-    return (
-        <div className="py-[108px] pl-[98px] pr-[142px]">
-            <Header />
-            <Footer />
-        </div>
-    );
+  return (
+    <div className="py-[108px] pl-[98px] pr-[142px] w-[1440px] ">
+      <Header />
+      <Footer />
+    </div>
+  );
 }
 
 export default App;

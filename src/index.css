@@ -1,11 +1,18 @@
 @tailwind base;
+@tailwind components;
 
 @layer base {
-    body {
-        @apply font-poppins;
-    }
+  body {
+    @apply font-poppins;
+  }
 
-    h4 {
-        @apply text-lg;
-    }
+  h4 {
+    @apply text-lg;
+  }
+}
+
+@layer components {
+  .infomation {
+    @apply font-semibold not-italic text-[18px] leading-[40px];
+  }
 }
