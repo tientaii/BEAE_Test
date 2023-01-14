@@ -33,7 +33,7 @@ function Index() {
 
       {/* Mobile */}
       <div className="md:hidden text-center">
-        <div className=" mt-[34px] h-[290.05px] mb-[10px] justify-between w-[390px] inline-flex">
+        <div className=" mt-[34px] h-[290.05px] mb-[10px]  justify-between w-[390px] inline-flex">
           <div>
             <img src="../../../src/assets/imgFooter/imgMobile/1MB.svg" alt="" className="mb-[9px]" />
             <img src="../../../src/assets/imgFooter/imgMobile/2MB.svg" alt="" />
@@ -43,12 +43,12 @@ function Index() {
           </div>
         </div>
 
-        <div className=" mb-[10px] inline-block">
+        <div className="inline-block">
           <img src="../../../src/assets/imgFooter/imgMobile/4MB.svg" alt="" className=" mb-[9px]" />
           <img src="../../../src/assets/imgFooter/imgMobile/5MB.svg" alt="" />
         </div>
 
-        <div className=" justify-between w-[390px] inline-flex">
+        <div className=" justify-between w-[390px] inline-flex ">
           <img src="../../../src/assets/imgFooter/imgMobile/6MB.svg" alt="" />
           <img src="../../../src/assets/imgFooter/imgMobile/7MB.svg" alt="" />
         </div>
