@@ -15,4 +15,8 @@
   .infomation {
     @apply font-semibold not-italic text-[18px] leading-[40px];
   }
+
+  .display {
+    @apply py-[108px] w-[1200px] m-[auto];
+  }
 }

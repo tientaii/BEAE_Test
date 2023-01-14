@@ -4,7 +4,7 @@ import Header from './components/Header';
 
 function App() {
   return (
-    <div className="py-[108px] pl-[98px] pr-[142px] w-[1440px] ">
+    <div className="display">
       <Header />
       <Footer />
     </div>

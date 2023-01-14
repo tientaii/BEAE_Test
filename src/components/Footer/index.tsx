@@ -1,32 +1,31 @@
+import Tab from '../Header/Tab';
+
 function Index() {
   return (
     <div>
       <div>
-        <div className="font-bold text-[45px] text-center mt-[100px]">Packer pen Gallery</div>
+        <div className="font-bold text-[45px] text-center mt-[100px] leading-[68px]">Packer pen Gallery</div>
       </div>
 
-      <div>
+      <div className="grid md:grid-cols-4 mt-[40px] items-center">
         <div>
-          <img src="../../assets/imgFooter/1.svg" alt=""></img>
-          <img src="../../assets/imgFooter/2.svg" alt=""></img>
+          <img src="../../../src/assets/imgFooter/1.svg" alt="" className="mb-[13px]" />
+          <img src="../../../src/assets/imgFooter/2.svg" alt="" />
         </div>
 
-        <div>
-          <img src="../../assets/imgFooter/3.svg" alt=""></img>
-          <img src="../../assets/imgFooter/4.svg" alt=""></img>
+        <div className="col-span-2 flex flex-col justify-center items-center ">
+          <img src="../../../src/assets/imgFooter/3.svg" alt="" className="mb-[13px]" />
+          <img src="../../../src/assets/imgFooter/4.svg" alt="" />
         </div>
 
-        <div>
-          <img src="../../assets/imgFooter/5.svg" alt=""></img>
-          <img src="../../assets/imgFooter/6.svg" alt=""></img>
-          <img src="../../assets/imgFooter/7.svg" alt=""></img>
+        <div className="pl-[8px]">
+          <img src="../../../src/assets/imgFooter/5.svg" alt="" className="mb-[13px]" />
+          <img src="../../../src/assets/imgFooter/6.svg" alt="" className="mb-[13px]" />
+          <img src="../../../src/assets/imgFooter/7.svg" alt="" />
         </div>
       </div>
 
-      <div className="flex justify-center mt-[50px]">
-        <div className="w-[15px] h-[15px] bg-[#333] rounded-[15px] opacity-[25%] mr-[15px]"></div>
-        <div className="w-[15px] h-[15px] bg-black rounded-[15px]  "></div>
-      </div>
+      <Tab />
     </div>
   );
 }
