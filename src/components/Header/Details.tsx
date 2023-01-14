@@ -1,21 +1,39 @@
+import Button from './Button/Button';
+import React from 'react';
+
 function Details() {
   return (
-    <div>
-      <div className="not-italic font-normal text-[21px] leading-[32px]">
-        Graphite Artist Quality Fine Art Drawing and Sketching Pencils Replaceable Nib Pencils.
+    <>
+      {/* PC */}
+      <div className="hidden md:block">
+        <div className="not-italic font-normal text-[21px] leading-[32px]">
+          Graphite Artist Quality Fine Art Drawing and Sketching Pencils Replaceable Nib Pencils.
+        </div>
+
+        <ul className="ml-[20px] list-disc mt-[20px]">
+          <li className="infomation">MECHANICAL PENCILS</li>
+          <li className="infomation">ARCHITECT'S CHOICE</li>
+          <li className="infomation">EXECUTIVE PENCILS</li>
+          <li className="infomation">ENGRAVABLE PENCILS</li>
+        </ul>
+
+        <Button text="Shop all" />
       </div>
 
-      <ul className="ml-[20px] list-disc mt-[20px]">
-        <li className="infomation">MECHANICAL PENCILS</li>
-        <li className="infomation">ARCHITECT'S CHOICE</li>
-        <li className="infomation">EXECUTIVE PENCILS</li>
-        <li className="infomation">ENGRAVABLE PENCILS</li>
-      </ul>
+      {/* Mobile */}
+      <div className="md:hidden">
+        <div className="not-italic font-normal text-[16px] leading-[27px]">
+          Graphite Artist Quality Fine Art Drawing, Sketching and Replaceable Nib Pencils.
+        </div>
 
-      <button className="mt-[35px] w-[120px] h-[50px] bg-[#F4B840] rounded-[5px] mb-[84px]">
-        <span className="not-italic text-[14px] leading-[40px] uppercase text-white font-bold">Shop all</span>
-      </button>
-    </div>
+        <ul className="ml-[20px] list-disc mt-[20px] grid grid-cols-2 gap-x-4 text-[13px] leading-[32px]">
+          <li className="infomation">MECHANICAL PENCILS</li>
+          <li className="infomation">EXECUTIVE PENCILS</li>
+          <li className="infomation">ARCHITECT'S CHOICE</li>
+          <li className="infomation">ENGRAVABLE PENCILS</li>
+        </ul>
+      </div>
+    </>
   );
 }
 

@@ -3,6 +3,7 @@ export interface Item {
   icon: string;
   active?: boolean;
 }
+import React from 'react';
 
 function NavItem({ item }: { item: Item }) {
   const { label, icon, active } = item;
